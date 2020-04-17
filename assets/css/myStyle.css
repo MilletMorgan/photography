@@ -1,0 +1,351 @@
+body {
+	font-family: 'Playfair Display', serif !important;
+
+	background: rgb(1,22,39)!important;
+	background: linear-gradient(180deg, rgba(1,22,39,1) 0%, rgba(0,0,0,1) 100%)!important;
+
+}
+
+section {
+	/*background-color: #011627!important;*/
+	/*background: #0F111A!important;*/
+	color: #F6F6F6;
+}
+p {
+	font-size: 1.5rem;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.main {
+	background: rgb(1,22,39)!important;
+	background: linear-gradient(180deg, rgba(1,22,39,1) 0%, rgba(0,0,0,1) 100%)!important;
+
+}
+
+.bg-dark {
+	background-color: #000!important;
+}
+
+.module-title, .module-subtitle {
+	color: #FFF!important;
+}
+
+.btn-subscribe {
+	width: 30vh;
+	background-color: #FFF;
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	text-align: center;
+}
+
+.btn-subscribe-yt {
+	margin-top: 10vh;
+}
+
+.video-youtube {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 85vh;
+	height: 48vh;
+}
+
+.youtube-iframe {
+	height: 100%;
+	width: 100%;
+}
+
+.cadre {
+	color: #f07178 !important;
+	padding: 2vh;
+	width: 25vh;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #EEE;
+	transition: 0.3s;
+}
+
+.cadre:hover {
+	opacity: 0.8;
+}
+
+img.img-youtube {
+	height: 5rem;
+	transition: 0.3s;
+}
+
+.h-75 {
+	min-height: 75vh;
+}
+
+.work-image-big {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	object-fit: cover!important;
+	height: 60vh!important;
+}
+
+.gallery-carousel {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	object-fit: cover!important;
+	height: 60vh!important;
+}
+
+.big-title {
+	font-family: 'Playfair Display', serif !important;
+	font-size: 4vw;
+	transition: 0.3s;
+	max-width: 40vh;
+	margin: 4vh auto;
+	text-align: center;
+}
+
+.insta {
+	font-size: 5rem!important;
+}
+
+.title-insta {
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-colored {
+	color: #ffcb6b!important;
+	/*background: rgb(131,58,180);*/
+	/*background: linear-gradient(90deg, rgba(255,0,15,1) 0%, rgba(255,252,0,1) 100%);*/
+
+	/*-webkit-background-clip: text;*/
+	/*-webkit-text-fill-color: transparent;*/
+}
+
+.cadre-titre {
+	border: 1px solid #ffcb6b;
+	padding: 1vh;
+}
+
+.icon-camera, .icon-video {
+	font-size: 3rem;
+}
+
+.item {
+	height: 56vh!important;
+}
+
+.item > img {
+	height: 60vh!important;
+	object-fit: cover;
+}
+
+.p-5 {
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.round-img {
+	border-radius: 100%;
+	object-fit: cover;
+	height: 250px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-shadow: 0 0 20px 0 black;
+}
+
+.right {
+	margin-left: auto;
+}
+
+.fit-content {
+	width: fit-content;
+}
+
+.text-red {
+	color: #b71c1c!important;
+}
+
+.ajust-size {
+	height: 5vh;
+}
+.link-btn {
+	font-size: 4rem;
+}
+
+.link-subscribe {
+	font-size: 4rem;
+	transition: 3s;
+	color: #FFF;
+	-webkit-text-fill-color: #FFF;
+	padding: 1vh;
+}
+
+
+.link-subscribe:hover {
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.form {
+	padding: 2vh 10vh 10vh;
+}
+
+.form h1 {
+	color: #000!important;
+}
+
+.h-22 {
+	min-height: 22vh;
+}
+
+/*#media {*/
+/*	background: #0F111A;*/
+/*	color: #ffcb6b;*/
+/*}*/
+
+#youtube {
+	background: #0F111A;
+	color: #ffcb6b;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+
+.filter {
+	margin: initial!important;
+}
+
+.toolbar ul {
+	display:table-row;
+}
+.toolbar ul li
+{
+	display: table-cell;
+	height: 100px;
+	list-style-type: none;
+	margin: 10px;
+	vertical-align: middle;
+}
+.category-list ul li a {
+	display:table-cell;
+	vertical-align: middle;
+	height:100px;
+}
+.category-list ul li.button a {
+	height:50px;
+	border: solid 1px black;
+}
+
+
+.insta-img {
+	max-height: 32vh!important;
+	object-fit: cover;
+}
+
+/* Lazy Load Styles */
+.card-image {
+	display: block;
+	min-height: 20rem; /* layout hack */
+	background: #fff center center no-repeat;
+	background-size: cover;
+	filter: blur(3px); /* blur the lowres image */
+}
+
+.card-image > img {
+	display: block;
+	width: 100%;
+	opacity: 0; /* visually hide the img element */
+}
+
+.card-image.is-loaded {
+	filter: none; /* remove the blur on fullres image */
+	transition: filter 1s;
+}
+
+
+
+/* .myGallery{
+	min-height: 70vh;
+	padding: 0;
+}
+.myGallery > .imgList{
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+	display: flex;
+  align-content: stretch;
+	flex-flow: row wrap;
+}
+.myGallery > .imgList > .gallery_product{
+  outline: 1px solid red;
+	width: 22vw;
+	min-height: 100vh;
+	margin: 0; padding: 0;
+	flex-grow: 1;
+	overflow: hidden;
+	box-sizing: border-box;
+  display: flex;
+  align-content: stretch;
+  align-items: stretch;
+}
+.myGallery > .imgList > .gallery_product > img{
+  object-fit: cover;
+  flex: 1;
+} */
+
+.img-gallery {
+	width: 100%!important;
+    height: 50vh!important;
+	object-fit: cover!important;
+	transition: 1s;
+}
+
+/* .img-gallery:hover {
+	opacity: 0.8;
+} */
+
+.gallery_product {
+    height: 50vh;
+}
+
+.gallery_product img:hover {
+    transform: scale(1.5);
+}
+
+.img-hover-zoom {
+
+	overflow: hidden;
+}
+
+.img-hover-zoom-big {
+	height: 100%;
+	max-width: 720px;
+	overflow: hidden;
+}
+
+.img-hover-zoom img, .img-hover-zoom-big img {
+	transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img, .img-hover-zoom-big:hover img {
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+.img-square {
+	object-fit: cover;
+	max-height: 250px;
+	width: 250px;
+}
